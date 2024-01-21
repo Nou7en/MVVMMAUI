@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MVVMProy</name>
+    </assembly>
+    <members>
+        <member name="T:MVVMProy.Models.ProductoDto">
+            <inheritdoc/>
+        </member>
+        <member name="P:MVVMProy.Models.ProductoDto.IdProducto">
+            <inheritdoc cref="F:MVVMProy.Models.ProductoDto.idProducto"/>
+        </member>
+        <member name="P:MVVMProy.Models.ProductoDto.Nombre">
+            <inheritdoc cref="F:MVVMProy.Models.ProductoDto.nombre"/>
+        </member>
+        <member name="P:MVVMProy.Models.ProductoDto.Descripcion">
+            <inheritdoc cref="F:MVVMProy.Models.ProductoDto.descripcion"/>
+        </member>
+        <member name="P:MVVMProy.Models.ProductoDto.Cantidad">
+            <inheritdoc cref="F:MVVMProy.Models.ProductoDto.cantidad"/>
+        </member>
+        <member name="T:MVVMProy.ViewModels.DetalleProductoViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MVVMProy.ViewModels.DetalleProductoViewModel.IdProducto">
+            <inheritdoc cref="F:MVVMProy.ViewModels.DetalleProductoViewModel.idProducto"/>
+        </member>
+        <member name="P:MVVMProy.ViewModels.DetalleProductoViewModel.Nombre">
+            <inheritdoc cref="F:MVVMProy.ViewModels.DetalleProductoViewModel.nombre"/>
+        </member>
+        <member name="P:MVVMProy.ViewModels.DetalleProductoViewModel.Descripcion">
+            <inheritdoc cref="F:MVVMProy.ViewModels.DetalleProductoViewModel.descripcion"/>
+        </member>
+        <member name="P:MVVMProy.ViewModels.DetalleProductoViewModel.Cantidad">
+            <inheritdoc cref="F:MVVMProy.ViewModels.DetalleProductoViewModel.cantidad"/>
+        </member>
+        <member name="F:MVVMProy.ViewModels.DetalleProductoViewModel.eliminarProductoCommand">
+            <summary>The backing field for <see cref="P:MVVMProy.ViewModels.DetalleProductoViewModel.EliminarProductoCommand"/>.</summary>
+        </member>
+        <member name="P:MVVMProy.ViewModels.DetalleProductoViewModel.EliminarProductoCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MVVMProy.ViewModels.DetalleProductoViewModel.EliminarProducto"/>.</summary>
+        </member>
+        <member name="F:MVVMProy.ViewModels.DetalleProductoViewModel.editarProductoCommand">
+            <summary>The backing field for <see cref="P:MVVMProy.ViewModels.DetalleProductoViewModel.EditarProductoCommand"/>.</summary>
+        </member>
+        <member name="P:MVVMProy.ViewModels.DetalleProductoViewModel.EditarProductoCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MVVMProy.ViewModels.DetalleProductoViewModel.EditarProducto"/>.</summary>
+        </member>
+        <member name="T:MVVMProy.ViewModels.EditarProductoViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MVVMProy.ViewModels.EditarProductoViewModel.IdProducto">
+            <inheritdoc cref="F:MVVMProy.ViewModels.EditarProductoViewModel.idProducto"/>
+        </member>
+        <member name="P:MVVMProy.ViewModels.EditarProductoViewModel.Nombre">
+            <inheritdoc cref="F:MVVMProy.ViewModels.EditarProductoViewModel.nombre"/>
+        </member>
+        <member name="P:MVVMProy.ViewModels.EditarProductoViewModel.Descripcion">
+            <inheritdoc cref="F:MVVMProy.ViewModels.EditarProductoViewModel.descripcion"/>
+        </member>
+        <member name="P:MVVMProy.ViewModels.EditarProductoViewModel.Cantidad">
+            <inheritdoc cref="F:MVVMProy.ViewModels.EditarProductoViewModel.cantidad"/>
+        </member>
+        <member name="F:MVVMProy.ViewModels.EditarProductoViewModel.editarProductoCommand">
+            <summary>The backing field for <see cref="P:MVVMProy.ViewModels.EditarProductoViewModel.EditarProductoCommand"/>.</summary>
+        </member>
+        <member name="P:MVVMProy.ViewModels.EditarProductoViewModel.EditarProductoCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MVVMProy.ViewModels.EditarProductoViewModel.EditarProducto"/>.</summary>
+        </member>
+        <member name="T:MVVMProy.ViewModels.NuevoProductoViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MVVMProy.ViewModels.NuevoProductoViewModel.Nombre">
+            <inheritdoc cref="F:MVVMProy.ViewModels.NuevoProductoViewModel.nombre"/>
+        </member>
+        <member name="P:MVVMProy.ViewModels.NuevoProductoViewModel.Descripcion">
+            <inheritdoc cref="F:MVVMProy.ViewModels.NuevoProductoViewModel.descripcion"/>
+        </member>
+        <member name="P:MVVMProy.ViewModels.NuevoProductoViewModel.Cantidad">
+            <inheritdoc cref="F:MVVMProy.ViewModels.NuevoProductoViewModel.cantidad"/>
+        </member>
+        <member name="F:MVVMProy.ViewModels.NuevoProductoViewModel.guardarProductoCommand">
+            <summary>The backing field for <see cref="P:MVVMProy.ViewModels.NuevoProductoViewModel.GuardarProductoCommand"/>.</summary>
+        </member>
+        <member name="P:MVVMProy.ViewModels.NuevoProductoViewModel.GuardarProductoCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MVVMProy.ViewModels.NuevoProductoViewModel.GuardarProducto"/>.</summary>
+        </member>
+        <member name="T:MVVMProy.ViewModels.ProductoViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MVVMProy.ViewModels.ProductoViewModel.ListaProductosDto">
+            <inheritdoc cref="F:MVVMProy.ViewModels.ProductoViewModel.listaProductosDto"/>
+        </member>
+        <member name="F:MVVMProy.ViewModels.ProductoViewModel.crearProductoNuevoCommand">
+            <summary>The backing field for <see cref="P:MVVMProy.ViewModels.ProductoViewModel.CrearProductoNuevoCommand"/>.</summary>
+        </member>
+        <member name="P:MVVMProy.ViewModels.ProductoViewModel.CrearProductoNuevoCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MVVMProy.ViewModels.ProductoViewModel.CrearProductoNuevo"/>.</summary>
+        </member>
+        <member name="F:MVVMProy.ViewModels.ProductoViewModel.detalleProductoCommand">
+            <summary>The backing field for <see cref="P:MVVMProy.ViewModels.ProductoViewModel.DetalleProductoCommand"/>.</summary>
+        </member>
+        <member name="P:MVVMProy.ViewModels.ProductoViewModel.DetalleProductoCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MVVMProy.ViewModels.ProductoViewModel.DetalleProducto"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IdProducto">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IdProducto" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Nombre">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Nombre" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Descripcion">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Descripcion" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Cantidad">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Cantidad" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ListaProductosDto">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ListaProductosDto" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IdProducto">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IdProducto" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Nombre">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Nombre" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Descripcion">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Descripcion" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Cantidad">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Cantidad" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ListaProductosDto">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ListaProductosDto" generated properties.</summary>
+        </member>
+    </members>
+</doc>
